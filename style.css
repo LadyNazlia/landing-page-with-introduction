@@ -1,0 +1,23 @@
+/*----------------------
+     Basic Layout
+---------------------*/
+html {
+    background-image: url(images/bg-desktop.svg);
+}
+
+div {
+    display: flex;
+    flex-direction: row;
+}
+
+img {
+    width: 50%;
+}
+
+section {
+    width: 50%;
+}
+
+p {
+    width: 75%;
+}

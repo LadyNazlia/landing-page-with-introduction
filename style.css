@@ -3,21 +3,62 @@
 ---------------------*/
 html {
     background-image: url(images/bg-desktop.svg);
+    background-color: hsl(257, 40%, 49%);
+    background-position: center;
+    background-size: cover;
 }
 
-div {
+main {
     display: flex;
     flex-direction: row;
 }
 
-img {
-    width: 50%;
+#logo {
+    width: 20%;
 }
 
-section {
+img {
+    width: 80%;
+    padding: 5% 0 0 5%;
+}
+
+main section {
     width: 50%;
+    padding-left: 7%;
+}
+
+h1, p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: white;
 }
 
 p {
     width: 75%;
+    font-weight: 400;
+}
+
+.icons {
+    display: flex;
+    justify-content: right;
+    margin-right: 10%;
+}
+
+.fa-brands {
+    color: white;
+    border: 1.5px solid white;
+    padding: 0.75%;
+    border-radius: 50%;
+    margin: 0 1%;
+   
+    
+}
+
+.fa-facebook-f {
+    padding: 0.75% 1%;
+}
+
+.fa-instagram {
+    padding: 0.75% 0.9%;
+    
 }
